@@ -225,7 +225,7 @@ namespace WindowsFighter
                 //progressBar1.Value = 50;
                 progressBar2.Value = 0;
                 //progressBar2.Value = 50;
-                textBox1.Text = $"{en.Name} wurde besieht. Du findest {en.Drop} Münzen.";
+                textBox1.Text = $"{en.Name} wurde besiegt. Du findest {en.Drop} Münzen.";
                 button8.Visible = true;
                 button3.Visible = false;
                 button4.Visible = false;
