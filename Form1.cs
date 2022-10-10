@@ -57,6 +57,17 @@ namespace WindowsFighter
             label9.Visible = true;  //Gegner Def
             label10.Visible = true; //Gegner Att
             label11.Visible = true; //Gegner HP
+            
+            pl.Attack = 50;     //Werte werden zurückgesetzt.
+            pl.Defense = 50;
+            pl.Money = 100;
+            en.Attack = 10;
+            en.Defense = 10;
+            en.Drop = 10;
+            a_counter = 1;
+            d_counter = 1;
+            en.Level = 1;
+
             en.SetName();
             en.SetHp();
             pl.SetHp();
@@ -145,12 +156,7 @@ namespace WindowsFighter
                 progressBar1.Value = 0;
                 progressBar2.Value = en.HPBar();
                 textBox1.Text = $"Du wurdest besiegt. {en.Name} feiert den Sieg.";
-                pl.Attack = 50;     //Werte werden zurückgesetzt.
-                pl.Defense = 50;
-                pl.Money = 100;
-                a_counter = 1;
-                d_counter = 1;
-                en.Level = 1;
+               
                 button1.Visible = true;
                 button3.Visible = false;
                 button4.Visible =false;
@@ -167,12 +173,7 @@ namespace WindowsFighter
                 progressBar1.Value = 0;
                 progressBar2.Value = 0;
                 textBox1.Text = $"Die Opponenten sind unmächtig.";
-                pl.Attack = 50;     //Werte werden zurückgesetzt.
-                pl.Defense = 50;
-                pl.Money = 100;
-                a_counter = 1;
-                d_counter = 1;
-                en.Level = 1;
+                
                 button1.Visible = true;
                 button3.Visible = false;
                 button4.Visible = false;
@@ -266,12 +267,7 @@ namespace WindowsFighter
                 progressBar1.Value = 0;
                 progressBar2.Value = en.HPBar();
                 textBox1.Text = $"Du wurdest besiegt. {en.Name} feiert den Sieg.";
-                pl.Attack = 50;     //Werte werden zurückgesetzt.
-                pl.Defense = 50;
-                pl.Money = 100;
-                a_counter = 1;
-                d_counter = 1;
-                en.Level = 1;
+                
                 button1.Visible = true;
                 button3.Visible = false;
                 button4.Visible = false;
@@ -289,12 +285,7 @@ namespace WindowsFighter
                 progressBar1.Value = 0;
                 progressBar2.Value = 0;
                 textBox1.Text = $"Die Opponenten sind unmächtig.";
-                pl.Attack = 50;     //Werte werden zurückgesetzt.
-                pl.Defense = 50;
-                pl.Money = 100;
-                a_counter = 1;
-                d_counter = 1;
-                en.Level = 1;
+               
                 button1.Visible = true;
                 button3.Visible = false;
                 button4.Visible = false;
